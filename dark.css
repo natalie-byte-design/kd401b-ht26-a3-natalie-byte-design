@@ -1,6 +1,6 @@
 body {
-  color: blueviolet;
-  background-color: blue;
+  color: hsl(271, 68%, 35%);
+  background-color: rgb(104, 94, 105);
 }
 a {
   color: aliceblue;
