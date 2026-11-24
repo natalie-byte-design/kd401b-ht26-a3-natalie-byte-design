@@ -39,3 +39,12 @@ footer {
   background-color: #151b17;
   color: #ffffff;
 }
+section[aria-label="Comments"] {
+  background-color: #303a33;
+  color: #e8e8e8;
+  border-left: 4px solid #829b83;
+}
+
+section[aria-label="Comments"] p {
+  color: #e8e8e8;
+}
