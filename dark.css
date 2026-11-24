@@ -50,3 +50,22 @@ section[aria-label="Comments"] {
 section[aria-label="Comments"] p {
   color: #ffffff;
 }
+
+aside {
+  background-color: #465449;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+aside h3 {
+  color: #ffffff;
+}
+
+aside a {
+  color: #c5d9bd;
+}
+
+aside a:hover {
+  color: #ffffff;
+}
