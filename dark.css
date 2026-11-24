@@ -1,7 +1,41 @@
 body {
-  color: hsl(271, 68%, 35%);
-  background-color: rgb(104, 94, 105);
+  background-color: #1e2421;
+  color: #eeeeee;
 }
-a {
-  color: aliceblue;
+
+header {
+  background-color: #293a31;
+}
+
+header h1,
+article h2,
+aside h3 {
+  color: #b7d5bd;
+}
+
+article {
+  background-color: #303a34;
+}
+
+article h3,
+article h4 {
+  color: #a5c5aa;
+}
+
+article p {
+  color: #dddddd;
+}
+
+aside {
+  background-color: #293a31;
+}
+
+nav a,
+aside a {
+  color: #c3ddc8;
+}
+
+footer {
+  background-color: #151b17;
+  color: #ffffff;
 }
