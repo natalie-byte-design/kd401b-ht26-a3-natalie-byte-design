@@ -40,11 +40,13 @@ footer {
   color: #ffffff;
 }
 section[aria-label="Comments"] {
-  background-color: #303a33;
-  color: #e8e8e8;
-  border-left: 4px solid #829b83;
+  background-color: #465449;
+  color: #ffffff;
+  border-left: 4px solid #a3bd9f;
+  border-radius: 8px;
+  padding: 20px;
 }
 
 section[aria-label="Comments"] p {
-  color: #e8e8e8;
+  color: #ffffff;
 }
