@@ -4,25 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    />
 
     <title>Portfolio: [Insert Name Here]</title>
 
+    <!-- CSS stylesheets -->
     <link rel="stylesheet" href="style.css" />
     <link id="palette" rel="stylesheet" href="light.css" />
 
+    <!-- JavaScript -->
     <script src="script.js" type="module"></script>
   </head>
 
   <body>
+    <header>
+      <h1>Blog of interests</h1>
+
+      <nav>
+        <ul>
+          <li><a href=".">Home</a></li>
+          <li><a href=".">About</a></li>
+          <li><a href=".">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Blog Post 1 -->
+      <article>
+        <h2>The day I discovered fandom culture</h2>
+
+        <p>
+          <time datetime="2025-11-11">November 11, 2025</time>
+          by Natalie Green
+        </p>
+
+        <section>
+          <h3>Introduction</h3>
+          <p>
+            Welcome to my blog! Here I share my interests, experiences and
+            thoughts about fandom culture.
+          </p>
+        </section>
+
+        <section>
+          <h3>Main Content Section</h3>
+
+          <p>
+            This section contains the main points of the article. multiple
+            sections within an article, each with its own heading hierarchy.
+          </p>
+
+          <p>More content goes here.</p>
+        </section>
+
+        <!-- Comments section -->
+        <section aria-label="Comments">
+          <h4>Comments</h4>
+          <p>Comment 1: Great post!</p>
+        </section>
+      </article>
+
+      <!-- Sidebar -->
+      <aside>
+        <h3>Related Links</h3>
+
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Theme switch button -->
     <button id="theme" type="button">Dark mode</button>
 
+    <!-- Footer -->
     <footer>
       <p>&copy; 2025 Blog Site. All rights reserved.</p>
       <p><a href="mailto:contact@example.com">Contact Us</a></p>
