@@ -1,4 +1,41 @@
 body {
-  color: black;
-  background-color: floralwhite;
+  background-color: #f5f2eb;
+  color: #333333;
+}
+
+header {
+  background-color: #dce5dc;
+}
+
+header h1,
+article h2,
+aside h3 {
+  color: #344c3d;
+}
+
+article {
+  background-color: #ffffff;
+}
+
+article h3,
+article h4 {
+  color: #617c65;
+}
+
+article p {
+  color: #555555;
+}
+
+aside {
+  background-color: #e7ece5;
+}
+
+nav a,
+aside a {
+  color: #344c3d;
+}
+
+footer {
+  background-color: #344c3d;
+  color: #ffffff;
 }
